@@ -31,6 +31,7 @@ open class OktaAPI {
     public private(set) var oktaDomain: URL
     public private(set) var urlSession: URLSession
 
+    // from forked repo
     @discardableResult open func primaryAuthentication(username: String?,
                                                        password: String?,
                                                        audience: String? = nil,
