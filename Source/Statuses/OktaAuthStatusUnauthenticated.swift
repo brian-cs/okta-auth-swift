@@ -21,7 +21,7 @@ open class OktaAuthStatusUnauthenticated : OktaAuthStatus {
 
     open func authenticate(username: String,
                            password: String,
-                           deviceToken, String? = nil,
+                           deviceToken: String? = nil,
                            onStatusChange: @escaping (_ newStatus: OktaAuthStatus) -> Void,
                            onError: @escaping (_ error: OktaError) -> Void) {
 
